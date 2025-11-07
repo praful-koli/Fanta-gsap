@@ -60,7 +60,7 @@ a {
 #main #hero-section {
   width: 100%;
   height: 100%;
-  background: #fb6106;
+  background: #bd4703;
   display: flex;
 }
 #main #hero-section #orange {
@@ -142,8 +142,8 @@ a {
   height: 100%;
 }
 #main #hero-section .left img {
-  width: 75%;
-  transform: translateY(12%) translateX(65%);
+  width: 65%;
+  transform: translateY(28%) translateX(85%);
 }
 #main #hero-section .right {
   color: white;
@@ -151,7 +151,7 @@ a {
   padding: 4rem;
 }
 #main #hero-section .right .text {
-  margin-top: 3.5rem;
+  margin-top: 8.9rem;
 }
 #main #hero-section .right .text h1 {
   font-size: 4.9rem;
@@ -181,8 +181,92 @@ a {
   width: 100%;
   height: 100%;
   background-color: rgb(120, 53, 6);
+  display: flex;
 }
-#main #two svg {
-  width: 25%;
-  transform: rotate(-32deg);
+#main #two .two-left, #main #two .two-right {
+  width: 50%;
+  height: 100%;
+}
+#main #two .two-left svg {
+  width: 45%;
+  transform: rotateX(60deg) translateY(200%) translateX(40%);
+}
+#main #two .two-right {
+  color: white;
+  z-index: 4;
+  padding: 4rem;
+}
+#main #two .two-right .text {
+  margin-top: 8.9rem;
+}
+#main #two .two-right .text h1 {
+  font-size: 4.9rem;
+  margin-bottom: -1.1rem;
+  letter-spacing: 0.452rem;
+}
+#main #two .two-right .text h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: -0.55rem;
+  letter-spacing: 0.252rem;
+}
+#main #two .two-right .text h3 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-bottom: 1.1rem;
+  letter-spacing: 0.252rem;
+}
+#main #two .two-right .text button {
+  padding: 1vw 5vh;
+  font-size: 1.5vw;
+  border-radius: 5rem;
+  border: none;
+  margin: 3vh 12vw;
+}
+#main #three {
+  width: 100%;
+  height: 100%;
+  background-color: #bd382f;
+  display: flex;
+  gap: 100px;
+  padding: 5rem;
+  justify-content: center;
+  align-items: flex-end;
+}
+#main #three .card {
+  width: 20%;
+  height: 70%;
+  background-color: rgb(210, 206, 206);
+  border-radius: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+#main #three .card .box {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+#main #three .card .box h1 {
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+#main #three .card .box button {
+  padding: 1rem 2rem;
+  font-size: 0.852rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 2rem;
+}
+#main #three #pepsi {
+  width: 19%;
+  position: absolute;
+  transform: translateX(-125%) translateY(-24%);
+}
+#main #three #cocacola {
+  width: 24%;
+  position: absolute;
+  transform: translateY(-13%) translateX(96%);
 }/*# sourceMappingURL=style.css.map */

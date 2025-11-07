@@ -74,7 +74,7 @@ a {
   #hero-section {
     width: 100%;
     height: 100%;
-    background: #fb6106;
+    background: #bd4703;
     //    background: linear-gradient(180deg,rgba(251, 97, 6, 1) 0%, rgb(234, 139, 43) 100%);
     display: flex;
     #orange {
@@ -118,18 +118,17 @@ a {
 
     .left {
       img {
-        width: 75%;
-        transform: translateY(12%) translateX(65%) ;
+        width: 65%;
+        transform: translateY(28%) translateX(85%) ;
       }
     }
 
     .right {
       color: white;
-        z-index: 4;
+      z-index: 4;
       padding: 4rem;
       .text {
-     
-        margin-top: 3.5rem;
+        margin-top: 8.9rem;
         h1 {
           font-size: 4.9rem;
           margin-bottom: -1.1rem;
@@ -163,11 +162,111 @@ a {
      width: 100%;
      height: 100%;
      background-color: rgb(120, 53, 6);
+    display: flex;
+   
 
-     svg{
-        width: 25%;
-        transform: rotate(-32deg);
+     .two-left,.two-right {
+       width: 50%;
+       height: 100%;
+    }
+     
+    .two-left {
+       svg {
+          width: 45%;
+          transform:rotateX(60deg) translateY(200%) translateX(40%);
+       }
+    }
 
+    .two-right {
+      color: white;
+      z-index: 4;
+      padding: 4rem;
+      .text {
+        margin-top: 8.9rem;
+        h1 {
+          font-size: 4.9rem;
+          margin-bottom: -1.1rem;
+          letter-spacing: 0.452rem;
+        }
+        h2 {
+          font-size: 3rem;
+          font-weight: 400;
+          margin-bottom: -0.55rem;
+          letter-spacing: 0.252rem;
+        }
+        h3 {
+          font-size: 2.2rem;
+          font-weight: 400;
+          margin-bottom: 1.1rem;
+          letter-spacing: 0.252rem;
+        }
+
+        button {
+          padding: 1vw 5vh;
+          font-size: 1.5vw;
+          border-radius: 5rem;
+          border: none;
+          margin: 3vh 12vw;
+        }
+      }
+    }
+
+    
+  }
+
+
+  #three {
+    width: 100%;
+    height: 100%;
+    background-color: #bd382f;
+    display: flex;
+    gap: 100px;
+    padding: 5rem;
+    justify-content: center;
+    align-items: flex-end;
+    .card {
+      width: 20%;
+      height: 70%;
+      background-color: rgb(210, 206, 206);
+      border-radius: 20px;
+      display: flex;
+      align-items: flex-end;
+
+      .box{
+        width: 100%;
+        // background-color: #bd4703;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+         h1 {
+            font-size: 2.8rem;
+            font-weight: 500;
+           
+         }
+
+         button {
+            padding: 1rem 2rem;
+            font-size: 0.852rem;
+            font-weight: 600;
+            border:none;
+            border-radius: 2rem;
+         }
+      }
+    }
+  
+    #pepsi {
+        width: 19%;
+        position: absolute;
+        transform: translateX(-125%) translateY(-24%);
+    }
+
+     #cocacola{
+      width: 24%;
+      position: absolute;
+      transform: translateY(-13%) translateX(96%);
+      
      }
   }
-}
+} 
